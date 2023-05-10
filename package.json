@@ -1,0 +1,30 @@
+{
+  "name": "peer-ad-hoc-network",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx http-server",
+    "lint": "eslint ./src/*.js"
+  },
+  "keywords": [
+    "p2p",
+    "peer-to-peer",
+    "peer",
+    "network",
+    "networking",
+    "browser",
+    "web"
+  ],
+  "author": "Luke Nickerson",
+  "license": "MIT",
+  "dependencies": {
+    "peerjs": "^1.4.7"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "rocket-boots-eslint": "github:rocket-boots/rocket-boots-eslint"
+  }
+}
